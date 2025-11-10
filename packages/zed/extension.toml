@@ -1,0 +1,7 @@
+id = "one-thing-theme"
+name = "One Thing Theme"
+version = "1.0.1"
+schema_version = 1
+authors = ["Nyoman Sunima <https://nyomansunima.one>", "Weecraft <https://weecraft.club>"]
+description = "The best clean code editor theme that combine simplicity and clean look"
+repository = "https://github.com/one-thing-theme/zed"

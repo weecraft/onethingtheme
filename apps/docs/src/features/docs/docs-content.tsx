@@ -1,0 +1,22 @@
+import { ArticleContent } from "@shared/components";
+import { DocsMarkdownContent } from "./docs-markdown-content";
+import type { DocDetail } from "./docs-service";
+
+type Props = {
+  doc: DocDetail;
+};
+
+export function DocsContent({ doc }: Props) {
+  const { content, data } = doc;
+
+  return (
+    <article className="flex flex-col">
+      <ArticleContent>
+        <h1>{data.title}</h1>
+        <p className="-mt-2! text-foreground/60">{data.description}</p>
+
+        <DocsMarkdownContent content={content} />
+      </ArticleContent>
+    </article>
+  );
+}

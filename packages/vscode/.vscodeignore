@@ -1,0 +1,10 @@
+.vscode/**
+.vscode-test/**
+node_modules/**
+.git/**
+.gitignore
+.prettierrc
+.github/**
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+SECURITY.md
