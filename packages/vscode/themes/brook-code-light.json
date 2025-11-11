@@ -3,7 +3,6 @@
   "name": "Brook Code Light",
   "type": "light",
   "colors": {
-    // badge, button, and also the hint
     "badge.background": "#E6E6E6",
     "badge.foreground": "#0A0A0A",
     "button.background": "#E6E6E6",
@@ -13,14 +12,12 @@
     "button.secondaryForeground": "#0A0A0A",
     "button.secondaryHoverBackground": "#E6E6E6",
 
-    // worksapce configs, views, sidebar, title
     "titleBar.activeBackground": "#fcfcfc",
     "titleBar.activeForeground": "#0A0A0A",
     "titleBar.inactiveBackground": "#fcfcfc",
     "titleBar.inactiveForeground": "#0A0A0A",
     "titleBar.border": "#ffffff00",
 
-    // general
     "focusBorder": "#f2f2f2",
     "foreground": "#0A0A0A",
     "descriptionForeground": "#0A0A0A",
@@ -33,7 +30,6 @@
     "icon.foreground": "#0A0A0A",
     "keybindingLabel.foreground": "#0A0A0A",
 
-    // editor related configs
     "editor.background": "#fcfcfc",
     "editor.foreground": "#0A0A0A",
     "editor.foldBackground": "#00000000",
@@ -69,19 +65,16 @@
     "editorInlayHint.foreground": "#0A0A0A",
     "editorInlayHint.typeForeground": "#0A0A0A",
 
-    // Gutter
     "editorGutter.addedBackground": "#3bffcb",
     "editorGutter.deletedBackground": "#ff5959",
     "editorGutter.modifiedBackground": "#ffa962",
     "editorGutter.foldingControlForeground": "#7A7A7A",
 
-    // diff editor
     "diffEditor.removedTextBackground": "#e597af52",
     "diffEditor.insertedTextBackground": "#b7e7a44b",
     "diffEditor.insertedLineBackground": "#aceebb4d",
     "diffEditor.removedLineBackground": "#ffcecb4d",
 
-    // input
     "input.border": "#f2f2f2",
     "input.background": "#fcfcfc",
     "input.foreground": "#0A0A0A",
@@ -91,7 +84,6 @@
     "quickInput.background": "#ffffff",
     "quickInput.foreground": "#0A0A0A",
 
-    // list and trees
     "list.activeSelectionBackground": "#f2f2f280",
     "list.activeSelectionForeground": "#0A0A0A",
     "list.focusBackground": "#f2f2f280",
@@ -102,7 +94,6 @@
     "list.inactiveSelectionForeground": "#0A0A0A",
     "tree.indentGuidesStroke": "#ffffff00",
 
-    // panel & view
     "panel.background": "#fcfcfc",
     "panel.border": "#f2f2f2",
     "panelTitle.activeBorder": "#f2f2f2",
@@ -114,13 +105,11 @@
     "pickerGroup.foreground": "#0A0A0A",
     "progressBar.background": "#fcfcfc",
 
-    // scrollbar
     "scrollbar.shadow": "#ffffff",
     "scrollbarSlider.background": "#d5d5d533",
     "scrollbarSlider.hoverBackground": "#8c959f3d",
     "scrollbarSlider.activeBackground": "#8c959f47",
 
-    // sidebar
     "sideBar.background": "#fcfcfc",
     "sideBar.foreground": "#0A0A0A",
     "sideBar.border": "#f2f2f2",
@@ -129,7 +118,6 @@
     "sideBarSectionHeader.background": "#fcfcfc",
     "sideBarSectionHeader.border": "#f2f2f2",
 
-    // activity bar
     "activityBar.background": "#fcfcfc",
     "activityBar.foreground": "#0A0A0A",
     "activityBar.inactiveForeground": "#7A7A7A",
@@ -138,7 +126,6 @@
     "activityBarBadge.background": "#E6E6E6",
     "activityBarBadge.foreground": "#0A0A0A",
 
-    // status bar
     "statusBar.background": "#fcfcfc",
     "statusBar.border": "#f2f2f2",
     "statusBar.foreground": "#7A7A7A",
@@ -147,7 +134,6 @@
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBarItem.activeBackground": "#ffffff1f",
 
-    // tabs, header
     "tab.border": "#f2f2f2",
     "tab.activeBorder": "#fcfcfc",
     "tab.activeBorderTop": "#f2f2f2",
@@ -159,7 +145,6 @@
     "tab.unfocusedActiveBorder": "#fcfcfc",
     "tab.unfocusedInactiveForeground": "#7A7A7A",
 
-    // debug icon
     "debugIcon.continueForeground": "#0A0A0A",
     "debugIcon.disconnectForeground": "#0A0A0A",
     "debugIcon.pauseForeground": "#0A0A0A",
@@ -177,7 +162,6 @@
     "debugToolBar.background": "#ffffff",
     "debugToolBar.border": "#f2f2f2",
 
-    // symbol icon
     "symbolIcon.classForeground": "#7A7A7A",
     "symbolIcon.enumeratorForeground": "#7A7A7A",
     "symbolIcon.eventForeground": "#7A7A7A",
@@ -212,17 +196,14 @@
     "symbolIcon.unitForeground": "#7A7A7A",
     "symbolIcon.constantForeground": "#7A7A7A",
 
-    // checkbox
     "checkbox.background": "#ffffff",
     "checkbox.border": "#f2f2f2",
 
-    // dropdown
     "dropdown.background": "#ffffff",
     "dropdown.border": "#f2f2f2",
     "dropdown.foreground": "#0A0A0A",
     "dropdown.listBackground": "#ffffff",
 
-    // notifications
     "notificationCenterHeader.foreground": "#0A0A0A",
     "notificationCenterHeader.background": "#ffffff",
     "notifications.foreground": "#0A0A0A",
@@ -232,13 +213,11 @@
     "notificationsWarningIcon.foreground": "#ffaa00",
     "notificationsInfoIcon.foreground": "#0A0A0A",
 
-    // breadcrumb
     "breadcrumb.foreground": "#7A7A7A",
     "breadcrumb.focusForeground": "#0A0A0A",
     "breadcrumb.activeSelectionForeground": "#222222",
     "breadcrumbPicker.background": "#ffffff",
 
-    // settings
     "settings.headerForeground": "#0A0A0A",
     "settings.modifiedItemIndicator": "#0A0A0A"
   },
