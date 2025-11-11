@@ -4,7 +4,7 @@
 # ***** NOTE ******
 # This deployment need to setup some secrets
 
-name: Publish
+name: Publish docs
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_WEB_ORG_ID }}
@@ -14,9 +14,8 @@ on:
   push:
     branches:
       - main
-
-permissions:
-  contents: write
+    paths:
+      - "apps/docs/**"
 
 jobs:
   deploy-to-vercel:
