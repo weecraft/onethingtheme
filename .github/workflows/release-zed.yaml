@@ -35,7 +35,7 @@ jobs:
     name: Publish
     runs-on: ubuntu-latest
     steps:
-      - uses: huacnlee/zed-extension-action@v1
+      - uses: huacnlee/zed-extension-action@v2
         with:
           extension-name: brook-code-theme
           push-to: brook-code-theme/zed-extensions
