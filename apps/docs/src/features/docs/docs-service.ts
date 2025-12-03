@@ -1,3 +1,4 @@
+import { notFound } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import { allDocs, type Doc } from "content-collections";
 import z from "zod";
@@ -30,6 +31,11 @@ export const getDocDetail = createServerFn()
   .handler((ctx): Doc => {
     const slug = parseSlug(ctx.data.slug);
     const docs = allDocs;
-    const doc = docs.filter((d) => d._meta.path === slug)[0];
+    const doc = docs.find((d) => d._meta.path === slug);
+
+    if (!doc) {
+      throw notFound();
+    }
+
     return doc;
   });

@@ -1,8 +1,7 @@
-import { mergeClass } from "@shared/libs";
-import type { TocItem } from "remark-flexible-toc";
+import { cx } from "tailwind-variants/lite";
 
 type Props = {
-  toc: TocItem[];
+  toc: any[];
 };
 
 export function TableOfContent({ toc }: Props) {
@@ -14,7 +13,7 @@ export function TableOfContent({ toc }: Props) {
         <ul className="flex w-full flex-col">
           {toc.map((item, index) => (
             <li
-              className={mergeClass(
+              className={cx(
                 "group flex h-8 px-3 text-foreground/60 hover:text-foreground",
                 item.depth === 3 && "ml-4"
               )}

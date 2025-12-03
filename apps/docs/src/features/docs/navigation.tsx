@@ -1,5 +1,5 @@
-import { mergeClass } from "@shared/libs";
 import { useLocation } from "@tanstack/react-router";
+import { cx } from "tailwind-variants/lite";
 
 type navigationItem = {
   label: string;
@@ -52,9 +52,9 @@ function NavigationItem({ item }: NavigationItemProps) {
 
   return (
     <li
-      className={mergeClass(
+      className={cx(
         "group hover:-translate-x-1 flex h-9 w-full items-center overflow-hidden text-pretty rounded-lg px-3 text-foreground/90 transition-all duration-300 hover:bg-secondary hover:text-foreground",
-        isActive && "bg-secondary text-foreground"
+        { "bg-secondary text-foreground": isActive }
       )}
     >
       <a className="flex h-full w-full items-center" href={link}>

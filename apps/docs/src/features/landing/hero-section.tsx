@@ -1,5 +1,5 @@
 import { Button } from "@shared/components";
-import { mergeClass } from "@shared/libs";
+import { cx } from "tailwind-variants/lite";
 import workImage1 from "./work-image-1.png";
 import workImage2 from "./work-image-2.png";
 
@@ -14,7 +14,7 @@ type GalleryItemProps = {
 function GalleryItem({ data, className }: GalleryItemProps) {
   return (
     <div
-      className={mergeClass(
+      className={cx(
         "absolute h-full w-full cursor-pointer rounded-3xl border border-border border-dashed bg-surface p-1 transition-all duration-500 hover:z-10 hover:scale-105",
         className
       )}

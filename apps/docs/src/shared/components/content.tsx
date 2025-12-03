@@ -1,5 +1,5 @@
-import { mergeClass } from "@shared/libs";
 import type { ImgHTMLAttributes } from "react";
+import { cx } from "tailwind-variants/lite";
 
 type ArticleContentProps = {
   children: React.ReactNode;
@@ -9,17 +9,13 @@ type ArticleContentProps = {
 type ContentImageProps = ImgHTMLAttributes<HTMLImageElement> & {};
 
 export function ArticleContent({ children, className }: ArticleContentProps) {
-  return (
-    <article className={`${mergeClass("prose", className)}`}>
-      {children}
-    </article>
-  );
+  return <article className={`${cx("prose", className)}`}>{children}</article>;
 }
 
 export function ContentImage({ src, alt, className }: ContentImageProps) {
   return (
     <div
-      className={`${mergeClass(
+      className={`${cx(
         "my-4 flex cursor-pointer rounded-2xl border border-border bg-ambient p-1",
         className
       )}`}
